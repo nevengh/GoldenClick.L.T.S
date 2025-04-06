@@ -6,6 +6,7 @@ import About from './pages/About/About';
 import Navbar from './components/Navbar/Navbar';
 import Blog from './pages/Blog/Blog';
 import ArticlePage from './pages/ArticlePage/ArticlePage';
+import Footer from './components/Footer/Footer';
 const App = () => {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='/article' element={<Blog/>} />
         <Route path="/article/:id" element={<ArticlePage/>} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }

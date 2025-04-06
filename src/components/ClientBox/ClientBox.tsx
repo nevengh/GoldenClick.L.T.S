@@ -1,5 +1,5 @@
 import './ClientBox.css';
-import ArrowBTN from "../ArrowBTN/ArrowBTN";
+import ArrowBTN from "../shared/ArrowBTN/ArrowBTN";
 interface ClientBoxProps{
     degree:string;
     title:string;

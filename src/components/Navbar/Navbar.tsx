@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className={`nav-menu ${toggleMenu ? 'active' : ''}`}>
         <Link to='/' className='nav-links' onClick={closeMenu}>Home</Link>
         <Link to='/about-us' className='nav-links' onClick={closeMenu}>About</Link>
-        <Link to='/case-studies' className='nav-links' onClick={closeMenu}>Case Studies</Link>
+        <Link to='/article' className='nav-links' onClick={closeMenu}>Blogs</Link>
         <Link to='/contact' className='nav-links' onClick={closeMenu}>Contact</Link>
       </div>
 

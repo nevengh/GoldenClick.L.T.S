@@ -43,13 +43,14 @@
   
   .article-category {
     font-size: 18px;
-    color: #9d025d;
+    color: #dddcdc;
     text-transform: capitalize;
     font-weight: bold;
   }
   
   .article-text {
-    margin-top: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
     font-size: 18px;
     color: #dddcdc;
     line-height: 1.8;
@@ -58,12 +59,17 @@
   
   .section-title {
     font-size: 24px;
-    color: #9d025d;
+    width: max-content;
+    /* color: #9d025d; */
+    background: linear-gradient(to right, #EEEE22, #BC901A, #BC8A00);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px transparent;
     font-weight: bold;
     margin-top: 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-bottom: 2px solid #9d025d;
+    border-bottom: 2px solid #BC901A;
     padding-bottom: 10px;
   }
   

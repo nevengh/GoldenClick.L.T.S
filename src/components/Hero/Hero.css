@@ -73,7 +73,10 @@
     font-size: 70px;
 }
 .Heading span{
-    color: rgb(107, 0, 62);
+    background: linear-gradient(to right, #9d025d, #BC901A, #9d025d);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px transparent;
 }
 .Hero-text{
     margin-top: 20px;

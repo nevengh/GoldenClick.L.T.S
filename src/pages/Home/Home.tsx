@@ -2,14 +2,14 @@ import "./Home.css";
 import Hero from "../../components/Hero/Hero";
 import ATI_Gray from "../../assets/ATI-Gray.svg";
 import consumer from "../../assets/consumer-halo_disco-woman.webp";
-import SectionHeading from "../../components/SectionHeading/SectionHeading";
+import SectionHeading from "../../components/shared/SectionHeading/SectionHeading";
 import { Container } from "react-bootstrap";
 import ClientBox from "../../components/ClientBox/ClientBox";
 
-import Accordion from "../../components/Accordion/Accordion";
+import Accordion from "../../components/shared/Accordion/Accordion";
 import { ServiceAccordion } from "../../DB/ServiceAccordion";
 import { FAQHome } from "../../DB/FAQHome";
-import LightBtn from "../../components/LightBtn/LightBtn";
+import LightBtn from "../../components/shared/LightBtn/LightBtn";
 const Home = () => {
   const clientCase = [
     {

@@ -68,7 +68,11 @@
   text-align: center;
 }
 .Next-level-head span {
-  color: rgb(157, 2, 93);
+  /* color: rgb(157, 2, 93); */
+  background: linear-gradient(to right, #9d025d, #BC901A, #9d025d);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px transparent;
 }
 .Next-level-text {
   color: white;
@@ -197,6 +201,7 @@
 
 .step h3 {
   color: #9d025d;
+
   font-size: 22px;
   margin-bottom: 10px;
 }

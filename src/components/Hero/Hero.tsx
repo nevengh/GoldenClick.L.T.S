@@ -1,6 +1,6 @@
 import "./Hero.css";
 import { Link } from "react-router-dom";
-import LightBtn from "../LightBtn/LightBtn";
+import LightBtn from "../shared/LightBtn/LightBtn";
 // import rocket from '../../assets/rocket.png'
 const Hero = () => {
   return (

@@ -22,7 +22,7 @@ const ArticlePage = () => {
         <h1 className="article-title">{blog.blogTitle}</h1>
       </div>
       <div className="article-content">
-        <p className="article-category">{blog.category}</p>
+        <p className="article-category">/{" "}{blog.category}</p>
         
         <div className="article-text">
           {blog.sections.map((section, index) => (
