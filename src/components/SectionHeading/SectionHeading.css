@@ -1,0 +1,18 @@
+.SectionHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.SectionHeading h4{
+    color: #ccc;
+}
+.SectionHeading h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.SectionHeading h1 span{
+    font-weight: bolder;
+    color: rgb(157, 2, 93);
+}

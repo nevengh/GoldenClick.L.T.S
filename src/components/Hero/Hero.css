@@ -1,0 +1,114 @@
+.Hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/hero-bg_11zon.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.Hero::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+/* @keyframes rocketTakeOff {
+    0% {
+        transform: translateY(0) scale(1); 
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-200px) scale(1.2); 
+        opacity: 1;
+    }
+    80% {
+        transform: translateY(-400px) scale(1.3); 
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-500px) scale(1);
+        opacity: 0; 
+    }
+}
+.Hero .rocket {
+    position: absolute;
+    right: 20%;
+    top:50%;
+    width: 350px;
+    animation: rocketTakeOff  3s ease-in-out infinite; 
+} */
+.Hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    max-width: 700px;
+}
+.sub-Head{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+}
+.sub-Head::before{
+    content:'';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #cd0dce 0, #5f0dce 100%);
+    filter: blur(0.30278em);
+    left: -25px;
+}
+
+.Heading{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+.Heading span{
+    color: rgb(107, 0, 62);
+}
+.Hero-text{
+    margin-top: 20px;
+    color: white;
+    font-size: 27px;
+    line-height: 41px;
+}
+.Hero-content a  .lets-talk-now{
+    align-items: start;
+    justify-content: start;
+
+}
+
+
+@media(max-width:640px){
+   .Hero{
+    background-position: right;
+   }
+   .Hero-content{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+   }
+   .Heading{
+    font-size: 54px;
+    text-align: center;
+   }
+   .Hero-text{
+    text-align: center;
+   }
+   .Hero .lets-talk-btn {
+    width: 100%;
+    padding: 15px;
+   }
+}

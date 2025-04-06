@@ -1,0 +1,79 @@
+/* ArticlePage.css */
+.article-page {
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .article-hero {
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .article-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .article-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+  
+  .article-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  .article-content {
+    margin-top: 20px;
+  }
+  
+  .article-category {
+    font-size: 18px;
+    color: #9d025d;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
+  .article-text {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #dddcdc;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    color: #9d025d;
+    font-weight: bold;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #9d025d;
+    padding-bottom: 10px;
+  }
+  
+  .article-text p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #bbb;
+  }
+  
+  .article-text p:first-child {
+    margin-top: 0;
+  }
+  

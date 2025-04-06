@@ -1,0 +1,174 @@
+.About {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../../assets/about-bg_11zon.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .About::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  .about-content {
+    position: relative;
+    width: 90%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .about-hero-section-1,
+  .about-hero-section {
+    flex: 1 1 40%;
+    max-width: 500px;
+  }
+  
+  /* كرة الأرضية */
+  .globe-wrapper {
+    flex: 1 1 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .globe {
+    width: 220px;
+    position: relative;
+    height: 220px;
+    animation: rotateGlobe 10s linear infinite;
+  }
+  .globe::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,.7);
+
+  }
+  
+  .who-we-serve-box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 60px auto;
+  }
+  .who-we-serve-head{
+    margin-left: 100px;
+  }
+  .who-we-serve-head h1{
+    color: white;
+  }
+  .who-we-serve-head h4{
+    color: #ebebeb;
+    font-size: 17px;
+    font-weight: 400;
+  }
+.who-we-serve-head h1 span{
+    color: #9d025d;
+    font-weight: bold;
+}
+.who-we-serve-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.who-we-serve-box img{
+    width: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* دوران الكرة الأرضية */
+  @keyframes rotateGlobe {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .about-hero-section-1 h4 {
+    color: #9d025d;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+  
+  .about-hero-section-1 p {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.4;
+  }
+  
+  .about-hero-section p {
+    font-size: 18px;
+    color: #f0f0f0;
+    line-height: 1.7;
+    text-align: justify;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 991px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .globe-wrapper {
+      margin: 30px 0;
+    }
+  
+    .globe {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .about-hero-section-1 p {
+      font-size: 32px;
+    }
+  
+    .about-hero-section p {
+      font-size: 16px;
+    }
+  }
+  

@@ -1,0 +1,65 @@
+/* Blog.css */
+.blog-hero {
+    background-image: url('../../assets/global-networking-background-hand-using-phone-technology-remix-galaxy_11zon.webp');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 640px;
+    position: relative;
+  }
+  
+  .blog-hero::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .blog-hero h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 54px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  
+  .blog-filter {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    max-width: 600px;
+  }
+  
+  .blog-filter-options {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 28px;
+    list-style: none;
+    text-transform: capitalize;
+    color: #bcbcbc;
+    font-weight: bold;
+  }
+  
+  .blog-filter-options li {
+    cursor: pointer;
+    transition: color 0.4s ease-in-out;
+  }
+  
+  .blog-filter-options li:hover {
+    color: white;
+  }
+  
+  .blogList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  
