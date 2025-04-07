@@ -10,13 +10,13 @@
     font-family: 'Arial', sans-serif;
     text-align: center;
     position: relative;
-    background: linear-gradient(135deg, #3a3a3a, #1a1a1a); /* Background gradient for the footer */
+    background: linear-gradient(135deg, #3a3a3a83, #1a1a1a53); /* Background gradient for the footer */
     overflow: hidden; /* Prevent horizontal scroll */
   }
   
   .footer-overlay {
     position: absolute;
-    bottom: -80px; /* Adjust vertical position */
+    bottom: -80px; 
     right: -80px; /* Adjust horizontal position */
     width: 400px; /* Increased size of the image */
     opacity: 0.4; /* Adjust the transparency */

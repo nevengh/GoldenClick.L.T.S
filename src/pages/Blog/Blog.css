@@ -40,7 +40,7 @@
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    font-size: 28px;
+
     list-style: none;
     text-transform: capitalize;
     color: #bcbcbc;
@@ -48,6 +48,7 @@
   }
   
   .blog-filter-options li {
+    font-size: 28px;
     cursor: pointer;
     transition: color 0.4s ease-in-out;
   }
@@ -63,3 +64,21 @@
     margin-top: 50px;
   }
   
+
+  @media(max-width:767px){
+
+    .blog-filter-options li {
+      font-size: 22px;
+  }
+  .blog-filter {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    max-width: 400px;
+}
+.blog-hero h1{
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+  }
